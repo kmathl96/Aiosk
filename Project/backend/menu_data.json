@@ -1,0 +1,441 @@
+[
+  {
+    "model": "kiosks.category",
+    "pk": 100,
+    "fields": {
+      "name": "없는 카테고리"
+    }
+  },
+  {
+    "model": "kiosks.category",
+    "pk": 1,
+    "fields": {
+      "name": "커피"
+    }
+  },
+  {
+    "model": "kiosks.category",
+    "pk": 2,
+    "fields": {
+      "name": "프라페"
+    }
+  },
+  {
+    "model": "kiosks.category",
+    "pk": 3,
+    "fields": {
+      "name": "과일 음료"
+    }
+  },
+  {
+    "model": "kiosks.category",
+    "pk": 4,
+    "fields": {
+      "name": "티"
+    }
+  },
+  {
+    "model": "kiosks.category",
+    "pk": 5,
+    "fields": {
+      "name": "기타 음료"
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 100,
+    "fields": {
+      "name": "존재하지 않는 메뉴",
+      "price": 0,
+      "description": "",
+      "image_path": "",
+      "category": 100
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 1,
+    "fields": {
+      "name": "에스프레소",
+      "price": 3600,
+      "description": "커피의 핵심, 강렬하고 카라멜향이 달콤한 커피 음료",
+      "image_path": "",
+      "category": 1
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 2,
+    "fields": {
+      "name": "아메리카노",
+      "price": 4100,
+      "description": "강렬한 에스프레소 샷에 뜨거운 물의 조화",
+      "image_path": "",
+      "category": 1
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 3,
+    "fields": {
+      "name": "콜드 브루",
+      "price": 4500,
+      "description": "전용 원두를 차가운 물로 14시간 동안 추출한 커피 음료",
+      "image_path": "",
+      "category": 1
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 4,
+    "fields": {
+      "name": "카페 라떼",
+      "price": 4600,
+      "description": "에스프레소 샷에 따뜻한 우유와 거품이 더해진 커피 음료",
+      "image_path": "",
+      "category": 1
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 5,
+    "fields": {
+      "name": "연유 라떼",
+      "price": 5600,
+      "description": "깊은 에스프레소에 우유, 연유 시럽이 어우러진 달콤한 음료",
+      "image_path": "",
+      "category": 1
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 6,
+    "fields": {
+      "name": "바닐라 라떼",
+      "price": 5200,
+      "description": "바닐라 빈 시럽과 에스프레소가 어우러진 카페 라떼",
+      "image_path": "",
+      "category": 1
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 7,
+    "fields": {
+      "name": "카페 모카",
+      "price": 5100,
+      "description": "모카시럽과 스팀밀크에 휘핑크림이 토핑된 에스프레소",
+      "image_path": "",
+      "category": 1
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 8,
+
+    "fields": {
+      "name": "카라멜 마키아또",
+      "price": 5600,
+      "description": "바닐라 시럽과 우유, 씁쓸한 에스프레소와 달콤한 카라멜 드리즐의 조화",
+      "image_path": "",
+      "category": 1
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 9,
+    "fields": {
+      "name": "아인슈페너",
+      "price": 6100,
+      "description": "깔끔한 아메리카노에 달콤한 생크림이 더해진 커피 음료",
+      "image_path": "",
+      "category": 1
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 10,
+    "fields": {
+      "name": "모카 프라페",
+      "price": 5600,
+      "description": "초콜릿, 커피와 얼음이 갈린 음료에 휘핑크림이 토핑된 음료",
+      "image_path": "",
+      "category": 2
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 11,
+    "fields": {
+      "name": "자바 칩 프라페",
+      "price": 6100,
+      "description": "커피 프라페에 초콜릿 칩이 첨가된 아이스 블렌드로 달콤 아삭한 음료",
+      "image_path": "",
+      "category": 2
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 12,
+    "fields": {
+      "name": "말차 크림 프라페",
+      "price": 6300,
+      "description": "어린 녹찻잎을 곱게 간 제주 유기농 말차가 들어간 크림 프라페",
+      "image_path": "",
+      "category": 2
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 13,
+    "fields": {
+      "name": "플레인 요거트 스무디",
+      "price": 6100,
+      "description": "요거트의 상큼함이 가득 느껴지는 가벼운 컨셉의 블렌디드 음료",
+      "image_path": "",
+      "category": 2
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 14,
+    "fields": {
+      "name": "딸기 요거트 스무디",
+      "price": 6100,
+      "description": "리얼 요거트와 우유, 딸기가 어우러져 가볍고 상큼하게 즐길 수 있는 블렌디드 음료",
+      "image_path": "",
+      "category": 2
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 15,
+    "fields": {
+      "name": "복숭아 스무디",
+      "price": 5300,
+      "description": "시원한 얼음에 제철 복숭아의 신선함이 가득 담긴 블렌디드 음료",
+      "image_path": "",
+      "category": 2
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 16,
+    "fields": {
+      "name": "자몽 스무디",
+      "price": 6300,
+      "description": "달콤 쌉싸름한 자몽과 상큼한 레모네이드의 조화로 가볍고 시원한 블렌디드 음료",
+      "image_path": "",
+      "category": 2
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 17,
+    "fields": {
+      "name": "블루베리 스무디",
+      "price": 6300,
+      "description": "블루베리 과육이 입안 가득 느껴지는 블렌디드 음료",
+      "image_path": "",
+      "category": 2
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 18,
+    "fields": {
+      "name": "망고 바나나 스무디",
+      "price": 5000,
+      "description": "신선한 바나나 1개와 망고가 통째로 들어간 달콤한 스무디",
+      "image_path": "",
+      "category": 2
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 19,
+    "fields": {
+      "name": "레몬 에이드",
+      "price": 5400,
+      "description": "상큼한 레몬과 즐기는 시원하고 청량감 있는 음료",
+      "image_path": "",
+      "category": 3
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 20,
+    "fields": {
+      "name": "자몽 에이드",
+      "price": 5400,
+      "description": "달콤씁쓸 자몽과 즐기는 시원하고 청량감 있는 음료",
+      "image_path": "",
+      "category": 3
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 21,
+    "fields": {
+      "name": "청포도 에이드",
+      "price": 5400,
+      "description": "신선한 청포도의 맛과 즐기는 시원하고 청량감 있는 음료",
+      "image_path": "",
+      "category": 3
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 22,
+    "fields": {
+      "name": "딸기 주스",
+      "price": 3800,
+      "description": "달콤한 국내산 딸기의 과육이 듬뿍 느껴지는 주스",
+      "image_path": "",
+      "category": 3
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 23,
+    "fields": {
+      "name": "토마토 주스",
+      "price": 3800,
+      "description": "국내산 토마토의 풍성한 과육이 듬뿍 담겨있는 주스",
+      "image_path": "",
+      "category": 3
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 24,
+    "fields": {
+      "name": "사과 주스",
+      "price": 4000,
+      "description": "햇사과 1개 반을 껍질 그대로 착즙한 사과 주스",
+      "image_path": "",
+      "category": 3
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 25,
+    "fields": {
+      "name": "수박 주스",
+      "price": 4000,
+      "description": "수박의 시원함과 달콤함이 풍성하게 느껴지는 주스",
+      "image_path": "",
+      "category": 3
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 26,
+    "fields": {
+      "name": "망고 주스",
+      "price": 4500,
+      "description": "노랗게 익은 열대과일 망고가 입안 가득 느껴지는 주스",
+      "image_path": "",
+      "category": 3
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 27,
+    "fields": {
+      "name": "자몽 허니 블랙 티",
+      "price": 5300,
+      "description": "새콤달콤한 자몽, 꿀과 깊은 풍미의 블랙 티와의 만남",
+      "image_path": "",
+      "category": 4
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 28,
+    "fields": {
+      "name": "얼 그레이 티",
+      "price": 5300,
+      "description": "라벤더 향이 특징적인 향긋한 블랙 티",
+      "image_path": "",
+      "category": 4
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 29,
+    "fields": {
+      "name": "밀크 티",
+      "price": 5300,
+      "description": "얼 그레이에 꿀이 더해져 달콤하고 부드러운 밀크 티",
+      "image_path": "",
+      "category": 4
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 30,
+    "fields": {
+      "name": "녹차",
+      "price": 5300,
+      "description": "우수한 품질의 유기 녹차로만 이루어져 향, 맛이 뛰어난 녹차",
+      "image_path": "",
+      "category": 4
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 31,
+    "fields": {
+      "name": "캐모마일 티",
+      "price": 5300,
+      "description": "캐모마일과 라벤더의 부드러운 꽃향이 어우러진 허브 티",
+      "image_path": "",
+      "category": 4
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 32,
+    "fields": {
+      "name": "아이스 티",
+      "price": 3500,
+      "description": "은은한 블랙 티에 복숭아의 풍미를 가득 담은 여름 음료의 대명사",
+      "image_path": "",
+      "category": 4
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 33,
+    "fields": {
+      "name": "말차 라떼",
+      "price": 6100,
+      "description": "차광재배한 어린 녹찻잎을 곱게 갈아 말차 본연의 맛과 향을 가진 라떼 음료",
+      "image_path": "",
+      "category": 4
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 34,
+    "fields": {
+      "name": "스팀 우유",
+      "price": 5300,
+      "description": "부드럽고 담백한 따뜻한 우유",
+      "image_path": "",
+      "category": 5
+    }
+  },
+  {
+    "model": "kiosks.menu",
+    "pk": 35,
+    "fields": {
+      "name": "초코 라떼",
+      "price": 5300,
+      "description": "코코아 파우더와 크림이 더해진 유럽 스타일의 진한 초콜릿 음료",
+      "image_path": "",
+      "category": 5
+    }
+  }
+]

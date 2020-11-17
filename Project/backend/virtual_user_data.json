@@ -1,0 +1,58 @@
+[
+    {
+      "model": "kiosks.virtualUser",
+      "pk": 100,
+      "fields": {
+        "age": 0,
+        "gender": true
+      }
+    },
+    {
+      "model": "kiosks.virtualUser",
+      "pk": 1,
+      "fields": {
+        "age": "younger",
+        "gender": true
+      }
+    },
+    {
+      "model": "kiosks.virtualUser",
+      "pk": 2,
+      "fields": {
+        "age": "younger",
+        "gender": false
+      }
+    },
+    {
+      "model": "kiosks.virtualUser",
+      "pk": 3,
+      "fields": {
+        "age": "older",
+        "gender": true
+      }
+    },
+    {
+      "model": "kiosks.virtualUser",
+      "pk": 4,
+      "fields": {
+        "age": "older",
+        "gender": false
+      }
+    },
+    {
+      "model": "kiosks.virtualUser",
+      "pk": 5,
+      "fields": {
+        "age": "senior",
+        "gender": true
+      }
+    },
+    {
+      "model": "kiosks.virtualUser",
+      "pk": 6,
+      "fields": {
+        "age": "senior",
+        "gender": false
+      }
+    }
+  ]
